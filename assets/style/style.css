@@ -1,0 +1,85 @@
+/* Stylesheet for LoopSelection */
+/* Created by Dianna Sutton Brown 2021 */
+
+
+.navColor {
+    background-color: black;
+    width: 100%;
+}
+
+.navTitle {
+    font-weight: bold;
+    padding-right: 100px;
+
+}
+
+.containerColor {
+    background-color: black; 
+}
+
+.cover {
+    padding-left: 40px;
+}
+
+h1 {
+    color: white;
+}
+
+.headerTitle {
+    color: white;
+    font-family: 'Righteous', cursive;
+    padding-top: 50px;
+   
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+.programs img {
+    padding: 20px 30px 20px 30px;
+}
+
+.halfSectionLeft {
+    width: 50%;
+}
+
+.halfSectionRight {
+    margin-left: 50%;
+    width: 50%;
+    float: right;
+}
+
+.events img {
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.float {
+    float: right;
+}
+
+.youtube {
+    margin-left: 25%;
+}
+
+
+.contact {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn {
+    height: 100px;
+}
+
+/* font family - goole fonts 
+font-family: 'Montserrat', sans-serif; //regular
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Poiret One', cursive; // use for p
+font-family: 'Righteous', cursive; // use for header
+*/

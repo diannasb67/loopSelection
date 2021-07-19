@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@700&family=Orbitron&family=Poiret+One&family=Righteous&display=swap"
+        rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+
+    <nav class="uk-navbar-container uk-dark navColor" uk-navbar>
+        <div class="uk-navbar-left navColor">
+            <ul class="uk-navbar-nav navColor">
+                <li class="navTitle"><a href="#">LoopSelection Logo</a></li>
+                <li>
+                    <a href="#">Programs</a>
+
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reserve</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+</div>
+    <!-- Cover -->
+    <main>
+        <section>
+            <div class="uk-cover-container uk-height-viewport containerColor cover"
+                uk-height-viewport="offset-bottom: 7">
+                <h1 class="headerTitle">LoopSelection</h1>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="uk-cover-container uk-height-viewport">
+                <h1 class="title">Programs</h1>
+
+                <div class="uk-grid-match uk-child-width-expand@s uk-text-center programs" uk-grid>
+                    <div>
+                        <img src="./assets/images/ableton.jpg" width="" height="" alt="" uk-img>
+
+                    </div>
+                    <div>
+                        <img src="./assets/images/logicprox.jpg" width="" height="" alt="" uk-img>
+                    </div>
+                    <div>
+                        <img src="./assets/images/protools.png" width="" height="" alt="" uk-img>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="uk-cover-container uk-height-viewport">
+                <div class="uk-cover-container uk-height-viewport halfSectionLeft events halfSectionLeft" style="background-color:black">
+                    <h1 class="title" style="color:white;">About My Work</h1> 
+                </div>
+            </div>
+            <div class="uk-cover-container uk-height-viewport halfSectionRight events" style="background-color:#652a75;">
+                <h1 class="title" style="color:white;">Events</h1> 
+                <img src="./assets/images/mixer.jpg" width="" height="" alt="" uk-img>
+            </div>
+        </section>
+        <section>
+            <div class="uk-container contact uk-height-small">
+                <p class="a"><button class="uk-button uk-button-secondary uk-button-large btn" >Request Booking</button>
+                </p>
+               </div>
+            <div class="uk-cover-container uk-height-viewport containerColor cover"
+                uk-height-viewport="offset-bottom: 7">
+                <h1 class="headerTitle">My YouTube Channel</h1>
+                <div class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JsSBKyZSNQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
