@@ -14,11 +14,42 @@
 }
 
 .containerColor {
-    background-color: black; 
+    background-color: black;
 }
 
 .cover {
     padding-left: 40px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    /* height: 80vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+section .content {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+section .content h2 {
+   
+    color: #fff;
+    font-size: 3em;
+}
+
+section .content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1.2em;
 }
 
 h1 {
@@ -45,10 +76,10 @@ h1 {
 
 .halfSectionLeft {
     width: 50%;
+    float: left;
 }
 
 .halfSectionRight {
-    margin-left: 50%;
     width: 50%;
     float: right;
 }
@@ -63,7 +94,7 @@ h1 {
 }
 
 .youtube {
-    margin-left: 25%;
+    margin-left: 27%;
 }
 
 
@@ -73,8 +104,43 @@ h1 {
     padding-top: 20px;
 }
 
-.btn {
-    height: 100px;
+.rqstbtn {
+    padding-top: 25px;
+    margin-left: 37%;    
+    
+}
+
+#element {
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.responsive  {
+    width:100%;
+    height: auto;
+    }
+
+/* Footer */
+.footerDesign {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #652a75, black);
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+
+footer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, #652a75, black);
+    /* border-radius: 0 0 50% 50%/0 0 100% 100%; */
+    transform: scaleX(1.5);
 }
 
 /* font family - goole fonts 
